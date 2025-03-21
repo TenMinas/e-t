@@ -1,0 +1,111 @@
+lo_cal :
+  0:
+    display_name : Abbott
+    display_order : 0
+    color: '#FF7000'
+  1:
+    display_name : Anniversary
+    display_order : 5
+    color: '#FF7000'
+  2:
+    display_name : Christian Holidays
+    display_order : 6
+    color: '#FFFF00'
+  3:
+    display_name : Den
+    display_order : 2
+    color: '#0000FF'
+  4:
+    display_name : Gary
+    display_order : 3
+    color: '#006400'
+  5:
+    display_name : Travel
+    display_order : 4
+    color: '#000000'
+  6:
+    display_name : TM
+    display_order : 1
+    color: '#BF00FF'
+  7:
+    display_name : US Holidays
+    display_order : 7
+    color: 'brown'
+  8:
+    display_name : Astrological Calendar
+    display_order : 8  
+    color: '#000000'  
+    
+# time zone data
+tz_codes :
+  CST : -0600
+  CDT : -0500
+  EST : -0500
+  EDT : -0400
+  MST : -0700
+  MDT : -0600
+  PST : -0800
+  PDT : -0700
+
+local_tz: CDT
+update_interval: 900 #seconds
+
+users:
+  db : "!#!"  # database
+  dd : "5690" # den desktop
+  gd : "5691" # gary desktop
+  dm : "5692" # den mobile
+  gm : "5693" # gary mobile
+
+
+logfile_length: 100
+current_logfile_name: ""
+recurring_limit: 63072000 # 31536000 sec / year = 2-yr to the sec
+trash_eol: 30 # days
+refresh: 5 # min
+
+DST_starts : # Starts in Central time
+  2020 : 1583654400
+  2021 : 1615708800
+  2022 : 1647158400
+  2023 : 1678608000
+  2024 : 1710057600
+  2025 : 1741507200
+  2026 : 1772956800
+  2027 : 1805011200
+  2028 : 1836460800
+  2029 : 1867910400
+  2030 : 1899360000
+  
+DST_ends : # Ends in Central time
+  2020 : 1604214000
+  2021 : 1636268399
+  2022 : 1667718000
+  2023 : 1699167599
+  2024 : 1730617200
+  2025 : 1762066800
+  2026 : 1793516400
+  2027 : 1825570800
+  2028 : 1857020400
+  2029 : 1888470000
+  2030 : 1919919600
+
+et_sto : # full path is specified
+  root_path: "/data/code/et_app/et_sto/"
+  ca_app_config : "ca_app_config"
+  repeat_list : "repeat_list"
+  trashed_list :  "trashed_list"
+  et_db_files : "et_db/et_db_files/"
+  et_lod: "et_lod.yaml"
+  msg_from_gd : "msg_from_gd"
+  msg_to_gd : "msg_to_gd"
+  
+ca_msgs_gd :
+  dumped_df : "/data/code/calendar_app/ca_msg/msgs_gd/pub2_gd"
+  reply2_gd : /data/code/calendar_app/ca_msg/msgs_gd/reply2_gd
+  reqfrom_gd :  /data/code/calendar_app/ca_msg/msgs_gd/reqfrom_gd
+
+
+
+
+# End of Config File
