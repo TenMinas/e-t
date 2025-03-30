@@ -4,6 +4,8 @@ IF YOUR COUNTRY OR JURISDICTION DOES NOT ALLOW ALL OF THE TERMS AND RESTRICTIONS
 
 YOU ARE RESPONSIBLE FOR ENSURING FULL COMPLIANCE WITH ALL LAWS.  IF YOU ARE UNSURE ABOUT THE LEGAL REQUIREMENTS, YOU ARE NOT PERMITTED TO USE THIS SOFTWARE!
 
+The copyright holder's failure to insist on strict performance of any provision of this license shall not be deemed a waiver of any of its rights or remedies, nor shall it relieve you from performing any subsequent obligations strictly in accordance with the terms of this license.
+
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
